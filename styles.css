@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+    margin: 0;
+    line-height: inherit;
+}
+header {
+    background-color: white;
+    display: block;
+    width: 100%;
+    z-index: 50;
+    top: 0;
+    position: fixed;
+}
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+    .nav-list {
+        display: flex;
+    }
+
+    .about-section {
+        display: flex;
+    }
+    .about-left {
+        background-color: gray;
+    }
+    .about-center {
+        background-color: lightgray;
+    }
+    .about-right {
+        background-color: gray;
+    }
