@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" type="text/css" rel="stylesheet" />
-    
+
     <meta property="og:title" content="Frontend Dev Blog" />
     <meta property="og:description" content="A blog about frontend web development - tips, tricks, use cases, how-tos, examples, stories." />
     <meta property="og:url" content="https://nikitahl.com/" />
@@ -22,26 +22,26 @@
     <nav class="navbar">
       <div>
         <a href="#" class="nav-logo"> 
-          <img src="#" class="logo-navbar" alt="JG-logo">
+          <img src="./media/jg-logo02.png" class="logo-navbar" alt="JG-logo">
         </a>
       </div>
       <div class="nav-menu">
         <ul class="nav-list">
-          <li class="nav-link"><a href="#">About Me</a></li>
-          <li class="nav-link"><a href="#">My Projects</a></li>
-          <li class="nav-link"><a href="#">Contact Me</a></li>
+          <li class="nav-link"><a href="/about-me">About Me</a></li>
+          <li class="nav-link"><a href="/my-projects">My Projects</a></li>
+          <li class="nav-link"><a href="/contact-me">Contact Me</a></li>
         </ul>
         <button class="cv-button">Download CV</button>
-        <ul>
-          <li>
-            <a href="/">ENG</a>
-          </li>
-        </ul>
+      </div>
+      <div>
+        <a href="#" class=""> 
+          <img src="#" class="language-icon" alt="language-icon">
+        </a>
       </div>
     </nav>
   </header>
 
-  <section class="about-section">
+  <section class="about">
     <div class="about-left">
       <div class="profile-picture">
       </div>
@@ -50,14 +50,22 @@
         <p class="personalia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tempore, vitae a eum, praesentium illo impedit doloremque quis cumque</p>
         <button class="linkedIn"><a href="">@juraj-gujda</a></button>
     </div>
-    <div class="about-center">
-      <div class="profile-picture">
+    <ul class="cards"> 
+      <div class="card">
+        <h5 class="jobTitle">ABOUT ME</h5>
+        <img src="./media/profilepicture.jpg" class="cardImage" alt="picture">
+        <h2 class="name">Juraj Gujda</h2>
+        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quas id ad, velit labore dolores blanditiis vero, aperiam voluptatibus, asperiores nemo error inventore nam delectus! </p>
+          
+        <div class="media-links">
+          <div class="socials">
+            <a href="https://www.twitter.com/" > <img src="./media/github.png" class="logo"></a>
+            <a href="https://www.facebook.com/" > <img src="./media/linkedin.png" class="logo"></a>
+            <a href="https://www.instagram.com/" > <img src="./media/email.png" class="logo"></a>
+          </div>
+        </div>
       </div>
-        <h3 class="name">Juraj Gujda</h3>
-        <h5 class="job-title">Junior Full-Stack Web Developer</h5>
-        <p class="personalia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tempore, vitae a eum, praesentium illo impedit doloremque quis cumque</p>
-        <button class="linkedIn"><a href="">@juraj-gujda</a></button>
-    </div>
+    </ul>
     <div class="about-right">
       <div class="profile-picture">
       </div>
@@ -67,5 +75,28 @@
         <button class="linkedIn"><a href="">@juraj-gujda</a></button>
     </div>
   </section>  
+
+  <section class="projects">
+    <div>
+      <ul class="">
+        <li class="project-link"><a href="#">Project 01</a></li>
+        <li class="project-link"><a href="#">roject 02</a></li>
+        <li class="project-link"><a href="#">roject 03</a></li>
+        <li class="project-link"><a href="#">roject 04</a></li>
+      </ul>
+    </div>
+    <div>
+      
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-social">
+        <a href="#" class="footer-icon"><i class='' ></i></a>
+        <a href="#" class="footer-icon"><i class='' ></i></a>
+        <a href="#" class="footer-icon"><i class='' ></i></a>
+    </div>
+    <p class="footer-copy">&#169; jurajgujda. All rigths reserved</p>
+</footer>
 </body>
 </html>
